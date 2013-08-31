@@ -1,0 +1,29 @@
+[marcbei@attu3 hw6-cache-coherence-dist]$ /cse/courses/csep548/12au/pin/pin -t 
+/cse/courses/csep548/12au/MultiCacheSim/MultiCacheSim_PinDriver.so   -protos 
+`pwd`/MESI_SMPCache.so,/cse/courses/csep548/12au/MultiCacheSim/MESI_SMPCache.so   
+-numcaches 4 -- /usr/bin/gcc >> side_by_side.txt
+Loaded Protocol Plugin 
+/homes/iws/marcbei/arch_hw6/hw6-cache-coherence-dist/MESI_SMPCache.so
+Loaded Protocol Plugin /cse/courses/csep548/12au/MultiCacheSim/MESI_SMPCache.so
+Using Reference Implementation 
+/cse/courses/csep548/12au/Coherence/Release/MESI_SMPCache.so
+gcc: fatal error: no input files
+compilation terminated.
+
+
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,126675,3488,0,3488,0,0,0,40420,946,0,0,946
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+0,126675,3488,0,3488,0,0,0,40420,946,0,0,946
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+1,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+2,0,0,0,0,0,0,0,0,0,0,0,0
+CPUId, numReadHits, numReadMisses, numReadOnInvalidMisses, numReadRequestsSent, numReadMissesServicedByOthers, numReadMissesServicedByShared, numReadMissesServicedByModified, numWriteHits, numWriteMisses, numWriteOnSharedMisses, numWriteOnInvalidMisses, numInvalidatesSent
+3,0,0,0,0,0,0,0,0,0,0,0,0
